@@ -1,6 +1,94 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+	background-image: url('images/hard-paper-texture.jpg'); 
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, Times, Serif;
+}
+header.page-header {
+	/* background: #66FFCC; */
+	background-image: url('images/hiking-the-sand-dunes.jpg');
+	background-size: cover;
+	background-position: center center;
+	padding: 3rem;
+	margin-top: 4rem;
+	margin-right: 12rem;
+	margin-left: 12rem;
+	text-align: center;
+	font-size: large;
+}
+.page-header h1 {
+	margin-bottom: 0;
+}
+.page-header small {
+	font-size: medium;
+}
+a:link {
+    color: #009999;
+}
+a:visited {
+    color: #6B614C;
+}
+aside {
+	padding: 2rem;
+	padding-left: 4rem;
+	margin-right: 12rem;
+	margin-left: 12rem;
+	padding-bottom: 5rem;
+}
+aside.more-info {
+	background: #D6C299;
+	list-style-type: none;
+}
+aside.more-info img {
+	width: 150px;
+	height: auto;
+	padding-left: 3rem;
+	padding-right: 2rem;
+	float: left;
+	padding-bottom: 2rem;
+}
+aside ul {
+	list-style-type: none;
+}
+section#content {
+	background-color: rgba(214, 194, 153, .65);
+	margin-right: 12rem;
+	margin-left: 12rem;
+	padding: 1rem;
+}
+.poem {
+	list-style-type: none;
+}
+.poem li {
+	font-size: medium;
+	line-height: 1.8;
+	padding-left: 17rem;
+}
+footer a:visited {
+    color: #D6C299;
+}
+footer.page-footer {
+	background: #564E3D;
+	color: #FFFFF0;
+	margin-bottom: 4rem;
+	margin-right: 12rem;
+	margin-left: 12rem;
+	padding: 1rem;
+}
+.citation {
+	padding-bottom: 0.1rem;
+	padding-top: 1rem;
+	font-size: small;
+}
+footer.page-footer ul {
+	font-size: small;
+}
+.page-credits {
+	padding: 1rem;
+	text-align: center;
+	line-height: 1.8;
 }

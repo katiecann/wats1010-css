@@ -54,6 +54,9 @@ aside.more-info img {
 aside ul {
 	list-style-type: none;
 }
+ul.social-links li {
+	display: inline;
+}
 section#content {
 	background-color: rgba(214, 194, 153, .65);
 	margin-right: 12rem;
